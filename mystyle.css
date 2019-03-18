@@ -1,0 +1,83 @@
+body {
+	background-color: lightblue;
+}
+.hori {
+	background-color: lightgreen;
+	margin-left: -10px;
+	margin-top: 5px;
+	padding: 5px;
+	padding-top: 0px;
+	width: auto;
+	height: 50px;
+}
+.verti {
+	padding-top: 10px;
+	margin-top: -15px;
+	margin-left: -10px;
+	display: flex;
+	flex-direction: column;
+	background-color: lightgreen;
+	width: 12%;
+	position: fixed;
+	height: 100%;
+}
+li {
+	display: inline-block;
+	padding: 0px;
+	padding-top: 2px;
+	float: left;
+	font-size: 20px;
+}
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li :hover {
+  background-color: #111;
+  opacity: 0.5;
+}
+.intro {
+	font-size: 30px;
+	margin-left: 15%;
+}
+div {
+	display: flex;
+}
+.places {
+	background: yellow;
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	border: 8px solid white;
+	margin: 5px;
+	border-radius: 4px;
+}
+.main {
+	display: flex;
+	order: 5;
+	margin-left:14%; 
+}
+.state {
+	color: #ff0000;
+	margin-left:14%;
+}
+.last {
+	margin-left:14%;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+h1 {
+  text-shadow: 2px 2px 5px white;
+}
